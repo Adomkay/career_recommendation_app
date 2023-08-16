@@ -117,7 +117,7 @@ def assessment():
     st.table(recommended_df)
 
 # App navigation
-st.sidebar.title("🧭 Pathfinder Education")
+st.sidebar.title("🧭 Career Recommendation")
 section = st.sidebar.radio("Choose a section:", ["📝 Interest Assessment"])
 
 if section == "📝 Interest Assessment":
