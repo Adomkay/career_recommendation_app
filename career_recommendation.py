@@ -39,7 +39,7 @@ def plot_charts(riasec_scores):
     plt.bar(categories, scores)
     plt.xlabel('RIASEC Categories')
     plt.ylabel('Scores')
-    plt.title('Interest Profile (Bar Chart)')
+    plt.title('Interest Profile')
 
     # Radar chart
     plt.subplot(1, 2, 2, polar=True)
@@ -48,7 +48,7 @@ def plot_charts(riasec_scores):
     angles += angles[:1]
     plt.plot(angles, scores, linewidth=2)
     plt.fill(angles, scores, alpha=0.25)
-    plt.title('Interest Profile (Radar Chart)')
+    plt.title('Interest Profile')
     plt.xticks(angles[:-1], categories)
 
     st.pyplot()
