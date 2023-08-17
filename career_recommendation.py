@@ -54,7 +54,7 @@ def plot_charts(riasec_scores):
     st.pyplot()
 
 def assessment():
-    st.title("📝 Interest Assessment")
+    st.title("🧭 Jifunza Africa")
     st.title("📝 Interest Assessment")
     st.write("""
     Please respond to the following 60 questions. Indicate your interest in each activity by selecting the appropriate option:
